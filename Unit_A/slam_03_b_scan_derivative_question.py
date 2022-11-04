@@ -1,6 +1,6 @@
 # Compute the derivative of a scan.
 # 03_b_scan_derivative
-# Claus Brenner, 09 NOV 2012
+
 from pylab import *
 from lego_robot import *
 

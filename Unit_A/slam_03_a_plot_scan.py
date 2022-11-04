@@ -1,6 +1,6 @@
 # Plot a scan of the robot using matplotlib.
 # 03_a_plot_scan
-# Claus Brenner, 09 NOV 2012
+
 from pylab import *
 from lego_robot import *
 

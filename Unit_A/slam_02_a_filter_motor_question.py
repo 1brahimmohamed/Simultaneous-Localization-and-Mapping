@@ -1,6 +1,6 @@
 # Implement the first move model for the Lego robot.
 # 02_a_filter_motor
-# Claus Brenner, 31 OCT 2012
+
 from math import sin, cos, pi
 import numpy as np
 from pylab import *

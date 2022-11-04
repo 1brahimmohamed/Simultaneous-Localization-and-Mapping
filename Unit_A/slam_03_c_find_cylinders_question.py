@@ -1,6 +1,6 @@
 # For each cylinder in the scan, find its ray and depth.
 # 03_c_find_cylinders
-# Claus Brenner, 09 NOV 2012
+
 from pylab import *
 from lego_robot import *
 

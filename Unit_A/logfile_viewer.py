@@ -1,5 +1,5 @@
 # Python routines to inspect a ikg LEGO robot logfile.
-# Author: Claus Brenner, 28.10.2012
+
 from email.mime import base
 from tkinter import *
 from tkinter import filedialog

@@ -5,7 +5,7 @@
 # - result is now output to a file, as "F" ("filtered") records.
 #
 # 02_b_filter_motor_file
-# Claus Brenner, 09 NOV 2012
+
 from math import sin, cos, pi
 from lego_robot import *
 import numpy as np

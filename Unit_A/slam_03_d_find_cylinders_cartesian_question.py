@@ -2,9 +2,10 @@
 # in the scanner's coordinate system.
 # Write the result to a file which contains all cylinders, for all scans.
 # 03_d_find_cylinders_cartesian
-# Claus Brenner, 09 NOV 2012
+
 from lego_robot import *
 from math import sin, cos
+
 
 # Find the derivative in scan data, ignoring invalid measurements.
 def compute_derivative(scan, min_dist):
