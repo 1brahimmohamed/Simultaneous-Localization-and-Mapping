@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15e00831-4748-41f1-b329-8f05d2f1ce60" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Unit_C/slam_06_e_histogram_filter_cleanedup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_C/slam_06_e_histogram_filter_cleanedup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit_C/slam_06_f_kalman_vs_histogram_filter_question.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_C/slam_06_f_kalman_vs_histogram_filter_question.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
       <workItem from="1667343654789" duration="287000" />
       <workItem from="1667568436849" duration="4577000" />
       <workItem from="1667682724530" duration="11000" />
-      <workItem from="1667843020639" duration="1030000" />
+      <workItem from="1667843020639" duration="1459000" />
     </task>
     <servers />
   </component>

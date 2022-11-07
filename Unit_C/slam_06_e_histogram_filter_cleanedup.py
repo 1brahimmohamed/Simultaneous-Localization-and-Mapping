@@ -15,7 +15,8 @@ from slam_06_d_histogram_filter import move, convolve, multiply
 
 
 def histogram_plot(prediction, measurement, correction):
-    """Helper to draw all curves in each filter step."""
+    # Helper to draw all curves in each filter step
+
     plot(prediction.plotlists(*arena)[0], prediction.plotlists(*arena)[1],
          color='#C0C0FF', drawstyle='steps', linewidth=5)
     plot(measurement.plotlists(*arena)[0], measurement.plotlists(*arena)[1],
