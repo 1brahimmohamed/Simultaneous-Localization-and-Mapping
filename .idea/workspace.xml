@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15e00831-4748-41f1-b329-8f05d2f1ce60" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Unit_A/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_A/.idea/Unit_A.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_A/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_A/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_A/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_A/lego_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_A/lego_robot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_A/logfile_viewer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_A/logfile_viewer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_A/slam_01_a_plot_motor_ticks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_A/slam_01_a_plot_motor_ticks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_A/slam_01_b_print_motor_increments.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_A/slam_01_b_print_motor_increments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_A/slam_01_c_plot_motor_increments.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_A/slam_01_c_plot_motor_increments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_A/slam_02_a_filter_motor_question.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_A/slam_02_a_filter_motor_question.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_A/slam_02_b_filter_motor_file_question.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_A/slam_02_b_filter_motor_file_question.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_A/slam_03_a_plot_scan.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_A/slam_03_a_plot_scan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_A/slam_03_b_scan_derivative_question.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_A/slam_03_b_scan_derivative_question.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_A/slam_03_c_find_cylinders_question.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_A/slam_03_c_find_cylinders_question.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit_A/slam_03_d_find_cylinders_cartesian_question.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unit_A/slam_03_d_find_cylinders_cartesian_question.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ibrahim/MyPC/Projects/SLAM&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/ibrahim/MyPC/Projects/Tamora/Equalizer",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +52,8 @@
       <workItem from="1667317257483" duration="7099000" />
       <workItem from="1667343472678" duration="174000" />
       <workItem from="1667343654789" duration="287000" />
-      <workItem from="1667568436849" duration="1128000" />
+      <workItem from="1667568436849" duration="4577000" />
+      <workItem from="1667682724530" duration="11000" />
     </task>
     <servers />
   </component>
