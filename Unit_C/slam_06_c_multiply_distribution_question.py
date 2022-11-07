@@ -7,9 +7,15 @@ from distribution import *
 def multiply(a, b):
     """Multiply two distributions and return the resulting distribution."""
 
-    # --->>> Put your code here.
+    vals = []
+    for i in range(min(a.start(), b.start()), max(a.stop(), b.stop()) + 1):
+        vals.append((a.value(i) * b.value(i)))
+
+    # Modify this to return your result.
+    distribution = Distribution(min(a.offset, b.offset), vals)
+    multiplication_result = distribution.normalize()
     
-    return a  # Modify this to return your result.
+    return multiplication_result  # Modify this to return your result.
 
 
 if __name__ == '__main__':
