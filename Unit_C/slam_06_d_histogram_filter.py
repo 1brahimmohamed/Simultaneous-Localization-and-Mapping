@@ -30,6 +30,7 @@ def convolve(a, b):
         new_offset += 1
 
         a = Distribution.sum(distributions)
+
     return a  # Replace this by your own result.
 
 
@@ -42,9 +43,9 @@ def multiply(a, b):
 
     # Modify this to return your result.
     distribution = Distribution(min(a.offset, b.offset), vals)
-    multiplication_result = distribution.normalize()
+    distribution.normalize()
 
-    return multiplication_result  # Modify this to return your result.
+    return distribution  # Modify this to return your result.
 
 
 if __name__ == '__main__':
@@ -54,7 +55,7 @@ if __name__ == '__main__':
     start_position = 10
     position = Distribution.unit_pulse(start_position)
     plot(position.plotlists(*arena)[0], position.plotlists(*arena)[1],
-         linestyle='steps')
+         drawstyle='steps')
 
     # Movement data.
     controls = [20] * 10
@@ -74,12 +75,12 @@ if __name__ == '__main__':
         control = Distribution.triangle(controls[i], 10)
         position = convolve(position, control)
         plot(position.plotlists(*arena)[0], position.plotlists(*arena)[1],
-             color='b', linestyle='steps')
+             color='b', drawstyle='steps')
 
         # Measure, by multiplication. Also termed "correction".
         measurement = Distribution.triangle(measurements[i], 10)
         position = multiply(position, measurement)
         plot(position.plotlists(*arena)[0], position.plotlists(*arena)[1],
-             color='r', linestyle='steps')
+             color='r', drawstyle='steps')
 
     show()
